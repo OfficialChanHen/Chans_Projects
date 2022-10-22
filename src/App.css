@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(rgb(240, 40, 40), rgb(240, 80, 80));
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bug {
+  background-color: #A6B91A;
+}
+.dark {
+  background-color: #705746;
+}
+.dragon {
+  background-color: #6F35FC;
+}
+.electric {
+  background-color: #F7D02C;
+}
+.fairy {
+  background-color: #D685AD;
+}
+.fighting {
+  background-color: #C22E28;
+}
+.fire {
+  background-color: #EE8130;
+}
+.flying {
+  background-color: #A98FF3;
+}
+.ghost {
+  background-color: #735797;
+}
+.grass {
+  background-color:#7AC74C;
+}
+.ground {
+  background-color: #E2BF65;
+}
+.ice {
+  background-color: #96D9D6;
+}
+.normal {
+  background-color: #A8A77A;
+}
+.poison {
+  background-color: #A33EA1;
+}
+.psychic {
+background-color: #F95587;
+}
+.rock {
+  background-color: #B6A136;
+}
+.steel {
+  background-color: #B7B7CE;
+}
+.water {
+  background-color:#6390F0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 3rem 0.5rem;
+}
+
+.pokemon-logo {
+  width: 30%;
+  height: flex;
+  padding-bottom: 15px;
+}
+
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.all-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumb-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0 ;
+  margin: 0.3rem;
+  border-radius: 0.2rem;
+  min-width: 160px;
+  text-align: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+  border: 2px solid black;
+}
+
+h3 {
+  margin-bottom: 0.2rem;
+}
+
+.thumb-container .number {
+  border-radius: 1rem;
+  padding: 0.2rem 0.4rem;
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.thumb-container img {
+  width: 120px;
+  height: 120px;
+}
+
+.thumb-container small {
+  text-transform: capitalize;
+}
+
+.detail-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.detail-wrapper button {
+  color: rgb(22, 22, 22);
+  padding: .5rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.185);
+}
+
+.page-controls {
+  display: flex;
+  justify-content: center;
+}
+
+.previous-page {
+  background: white;
+  border-radius: 2px;
+  border: 2.5px solid #c21a1a;
+  color: rgb(0, 0, 0);
+  padding: 0.4rem .5rem;
+  min-width: 50%;
+  margin: 1rem .25rem;
+}
+
+.next-page {
+  background: white;
+  border-radius: 2px;
+  border: 2.5px solid #c21a1a;
+  color: rgb(0, 0, 0);
+  padding: 0.4rem .5rem;
+  min-width: 50%;
+  margin: 1rem .25rem;
+}
+
+.shiny-button {
+  background-color: transparent;
+  border-color: transparent;
+  -webkit-transition: background-color 250ms ease-out, ;
+  -moz-transition: background-color 250ms ease-out;
+  -o-transition: background-color 250ms ease-out;
+  transition: background-color 250ms ease-out;
+}
+
+.shiny-button img {
+  width: 35px;
+  height: 35px;
+}
+
+.shiny-button:hover{ 
+  background-color:transparent;
+}
+
+.shiny-button:active{
+  background-color:transparent;
+  border-width:2px;
+  position:relative;
+  top:2px;
+}
